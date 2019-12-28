@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <title>Buscador de películas</title>
+        <link rel="stylesheet" href="./assets/css/main.css"
+        />
+    </head>
+    
+    <body>
+        <div class="container">
+            <form class="form">
+                <input type="text" placeholder="Nombre de la serie" class="js-input input__text"
+                />
+                <input type="submit" value="BUSCAR" class="js-button input__button" />
+            </form>
+            <div class="list-container">
+                <ul class="js-fav-series-container fav-series">
+                    <li>
+                        <h3>Mis series favoritas:</h3>
+                    </li>
+                </ul>
+                <ul class="js-series-container series"></ul>
+            </div>
+        </div>
+        <script src="./assets/js/main.js"></script>
+    </body>
+
+</html>
