@@ -1,9 +1,7 @@
 import React from "react";
-import "../stylesheets/App.css";
+import "../stylesheets/App.scss";
 import Title from "./Title";
 import Form from "./Form";
-import FavoritesList from "./FavoritesList";
-import List from "./List";
 import ListContainer from "./ListContainer";
 
 function App() {

@@ -1,4 +1,5 @@
 import React from "react";
+import "../stylesheets/ListContainer.scss";
 import FavoritesList from "./FavoritesList";
 import List from "./List";
 

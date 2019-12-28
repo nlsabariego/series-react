@@ -1,0 +1,22 @@
+.form {
+  padding: 10px;
+}
+
+.input {
+  &__text {
+    border: solid 2px purple;
+    background: white;
+    border-radius: 10px;
+    height: 20px;
+    font-family: monospace;
+  }
+
+  &__button {
+    border: solid purple;
+    background: purple;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+  }
+}
