@@ -1,0 +1,38 @@
+.fav-series {
+  list-style: none;
+  background: rgb(3, 3, 82);
+  color: #fabada;
+  padding: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: monospace;
+  max-width: 140px;
+}
+
+.serie__element--fav {
+  background: rgb(3, 3, 82);
+  padding: 10px;
+  margin: 10px;
+  max-height: 350px;
+  max-width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.serie__element--fav .serie__title {
+  text-align: center;
+  color: fuchsia;
+}
+
+.serie__element--fav .serie__image {
+  width: 100px;
+}
+
+.delete-button {
+  box-sizing: border-box;
+  border: solid black 2px;
+  background: red;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
