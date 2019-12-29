@@ -5,7 +5,7 @@ import List from "./List";
 
 function ListContainer() {
   return (
-    <div class='list-container'>
+    <div className='list-container'>
       <FavoritesList />
       <List />
     </div>

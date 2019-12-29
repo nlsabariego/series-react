@@ -3,9 +3,9 @@ import "../stylesheets/Form.scss";
 
 function Form() {
   return (
-    <form class='form'>
-      <input type='text' placeholder='Nombre de la serie' class='js-input input__text' />
-      <input type='submit' value='BUSCAR' class='js-button input__button' />
+    <form className='form'>
+      <input type='text' placeholder='Nombre de la serie' className='js-input input__text' />
+      <input type='submit' value='BUSCAR' className='js-button input__button' />
     </form>
   );
 }

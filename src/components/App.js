@@ -6,7 +6,7 @@ import ListContainer from "./ListContainer";
 
 function App() {
   return (
-    <div class='container'>
+    <div className='container'>
       <Title />
       <Form />
       <ListContainer />
